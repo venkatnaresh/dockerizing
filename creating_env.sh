@@ -7,6 +7,6 @@ do
 	echo "========="
 	echo "creating www.flipkart $i container..."
 	sleep 1
-docker run --name www.flipkart$i -d -it --rm venkatnaresh/nginx-img /bin/bash
+docker run --name www.flipkart$i -d -it --rm venkatnaresh/naresh-img /bin/bash
 echo "www.flipkart $i container has been created"
 done
